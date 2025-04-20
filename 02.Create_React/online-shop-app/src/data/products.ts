@@ -1,0 +1,86 @@
+import { Product } from "../types/product";
+
+const products: Product[] = [
+  {
+    id: 1,
+    name: "Wireless Headphones",
+    description: "High quality wireless headphones with noise cancellation.",
+    price: 2999,
+    image: "/images/headphones.jpg",
+    inStock: true,
+  },
+  {
+    id: 2,
+    name: "Gaming Mouse",
+    description: "Ergonomic gaming mouse with RGB lighting.",
+    price: 1499,
+    image: "/images/mouse.jpg",
+    inStock: true,
+  },
+  {
+    id: 3,
+    name: "Mechanical Keyboard",
+    description: "Durable mechanical keyboard with custom keycaps.",
+    price: 2499,
+    image: "/images/keyboard.jpg",
+    inStock: false,
+  },
+  {
+    id: 4,
+    name: "4K Monitor",
+    description: "27-inch 4K UHD monitor with HDR support.",
+    price: 9999,
+    image: "/images/monitor.jpg",
+    inStock: true,
+  },
+  {
+    id: 5,
+    name: "Laptop Stand",
+    description: "Adjustable aluminum laptop stand for better ergonomics.",
+    price: 899,
+    image: "/images/laptop-stand.jpg",
+    inStock: true,
+  },
+  {
+    id: 6,
+    name: "Portable SSD",
+    description: "1TB USB-C portable SSD for fast data transfer.",
+    price: 5999,
+    image: "/images/ssd.jpg",
+    inStock: true,
+  },
+  {
+    id: 7,
+    name: "Webcam",
+    description: "1080p HD webcam with built-in microphone.",
+    price: 1899,
+    image: "/images/webcam.jpg",
+    inStock: false,
+  },
+  {
+    id: 8,
+    name: "Bluetooth Speaker",
+    description: "Portable Bluetooth speaker with powerful bass.",
+    price: 1299,
+    image: "/images/speaker.jpg",
+    inStock: true,
+  },
+  {
+    id: 9,
+    name: "Smartwatch",
+    description: "Fitness tracking smartwatch with heart rate monitor.",
+    price: 3999,
+    image: "/images/smartwatch.jpg",
+    inStock: true,
+  },
+  {
+    id: 10,
+    name: "Desk Lamp",
+    description: "LED desk lamp with brightness and color adjustment.",
+    price: 799,
+    image: "/images/desk-lamp.jpg",
+    inStock: true,
+  },
+];
+
+export default products;
